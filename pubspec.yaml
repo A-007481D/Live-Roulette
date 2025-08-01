@@ -1,0 +1,50 @@
+name: chaos_dare
+description: The Most Controversial Live Dare App on the Internet
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase Backend
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  firebase_functions: ^4.5.7
+  
+  # Live Streaming
+  agora_rtc_engine: ^6.3.2
+  
+  # Payments
+  flutter_stripe: ^10.1.1
+  
+  # Video Processing
+  ffmpeg_kit_flutter: ^6.0.3
+  
+  # UI & State Management
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  
+  # Utils
+  http: ^1.1.2
+  intl: ^0.19.0
+  share_plus: ^7.2.2
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
